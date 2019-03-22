@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: #e0e9f0;
+        }
+        .editbutton {
+            color: #285c76;
+            border: 2px solid #3d7e9a;
+            width: 51px;
+            display: inline-block;
+            text-decoration: none;
+            background-color: white;
+            padding: 5px 11px;
+            font-size: 16px;
+            font-family: Arial, x-locale-body, sans-serif;
+            font-weight: bold;
+            margin: 0px;
+            line-height: 1;
+        }
+
+        .icon {
+            fill: #285c76;
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com" target="_blank" class="editbutton">
+        <svg class="icon icon-pencil" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28" aria-hidden="true">
+            <path d="M5.672 24l1.422-1.422-3.672-3.672L2 20.328V22h2v2h1.672zm8.172-14.5a.329.329 0 0 0-.344-.344.368.368 0 0 0-.266.109l-8.469 8.469a.366.366 0 0 0-.109.266c0 .203.141.344.344.344a.368.368 0 0 0 .266-.109l8.469-8.469a.366.366 0 0 0 .109-.266zM13 6.5l6.5 6.5-13 13H0v-6.5zM23.672 8c0 .531-.219 1.047-.578 1.406L20.5 12 14 5.5l2.594-2.578c.359-.375.875-.594 1.406-.594s1.047.219 1.422.594l3.672 3.656c.359.375.578.891.578 1.422z"></path>
+        </svg>
+        Edit</a>
+    <p>This is a simple example of an Edit button with a style stolen from the MDN site.</p>
+    <p>Techniques used:</p>
+    <ul>
+        <li>SVG</li>
+        <li>text-decoration: none</li>
+        <li>border</li>
+        <li>line-height</li>
+    </ul>
+    <p>I cheated a bit by giving the button an explicit width, so in the future it would be nice to make that auto-size.</p>
+</body>
+</html>
